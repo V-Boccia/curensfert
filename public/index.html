@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>Tp Final Web Apllication</title>
+	<script src="jquery.min.js"></script>
+	<script src="scripts.js"></script>
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width">
+</head>
+<body>
+
+<header id="header">
+	<div class="container">
+		
+		<div id="menu-icon"><img src="menu.png" alt="Menu"></div>
+		<nav id="top-nav">
+			<ul>
+				<li><a href="" class="current">Home</a></li>
+				<li><a href="">Forum</a></li>
+				
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<section id="content">
+	<div class="container">
+		<div id="welcome" class="card">
+			<h2>Welcome</h2>
+			<p>Interface of <strong>Curensfert</strong>!</p>
+			<input id="thanks" class="button" type="submit" value="Thanks">
+		</div>
+		<div id="sidebar">
+			<div id="Modification" class="card">
+				<h2>Quel curency utilisé:</h2>
+				
+
+			</div>
+		</div>
+
+		<div id="main">
+			<div id="chat" class="card">
+				<h2>Chat</h2>
+				<div id="shoutbox" class="shoutbox_content"></div>
+				<form method="POST" name="psowrte" id="sb_form" >
+					<div id="shoutbox-input">
+						<input class="nickname" type="text" 	name="name" 	value="Anonymous" placeholder="Nickname">
+						<input class="message" 	type="text" 	name="data" 	placeholder="Message...">
+						<input class="button" 	type="submit" 	name="submit" 	value="Send">
+					</div>
+					<div id="shoutbox-options">
+						<h3>Text Color:</h3>
+						<label for="def" 	class="bg-black">	<input name="color" type="radio" value="def" 	id="def" checked>Default</label>
+						<label for="blue" 	class="bg-blue">	<input name="color" type="radio" value="blue" 	id="blue"		>Blue</label>
+						<label for="green" 	class="bg-green">	<input name="color" type="radio" value="green" 	id="green"		>Green</label>
+						<label for="orange" class="bg-orange">	<input name="color" type="radio" value="orange" id="orange"		>Orange</label>
+						<label for="red" 	class="bg-red">		<input name="color" type="radio" value="red" 	id="red"		>Red</label>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="about">
+	<div class="container">
+		<p class="to-top"><a href="#header">Back to top</a></p>
+		<h2>About project</h2>
+		<p> It's a project for making some ask about the curency transfert <p>
+		<small>secret</small>
+	</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "curensfert",
+  "version": "1.2",
+  "description": "A foreign exchange rates and currency conversion using cli",
+  "author": {
+    "name": "Boccia Valentin",
+    "email": "boccia.valentin@gmail.com",
+    
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "bin": {
+    "currensfert": "./bin/cli.js"
+  },
+  "keywords": [
+    "currensfert",
+    "currency",
+    "rates",
+    "exchange",
+    "convert"
+  ],
+  "dependencies": {
+    "colors": "^1.1.2",
+    "got": "^6.5.0",
+    "money": "^0.2.0"
+  },
+  "devDependencies": {
+    "standard": "^8.5.0"
+  }
+}
